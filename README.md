@@ -9,12 +9,16 @@ Requirements:
   - [MongoDB](http://docs.mongodb.org/manual/administration/install-on-linux/).
 
 First, create a new virtual environment:
-```bash
+```
 $ virtualenv venv
 $ source venv/bin/activate
 ```
 Install required packages:
-```bash
+```
 (venv)$ pip install -r requirements.txt
 ```
-
+Start lamson server:
+```
+(venv)$ lamson start
+(venv)$ lamson log
+```
