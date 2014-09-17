@@ -28,3 +28,67 @@ Relay should not happen
 DEBUG:routing:Message to set(['tester@badplace.notinterwebs']) was handled by lamson.handlers.log.START
 DEBUG:routing:Matched 'tester@badplace.notinterwebs' against START.
 DEBUG:routing:Message to set(['tester@badplace.notinterwebs']) was handled by lamson.handlers.queue.START
+INFO:root:Logging mode enabled, will not send email to anyone, just log.
+INFO:root:SMTPReceiver started on 127.0.0.1:8825.
+DEBUG:root:Message received from Peer: ('127.0.0.1', 57898), From: 'me@mydomain.com', to To ['test@test.com'].
+DEBUG:routing:Matched 'test@test.com' against START.
+DEBUG:root:MESSAGE to test@test.com:
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+From: me@mydomain.com
+Subject: My test
+To: test@test.com
+Content-Transfer-Encoding: 7bit
+
+Hi there
+DEBUG:routing:Message to set(['test@test.com']) was handled by lamson.handlers.log.START
+DEBUG:routing:Matched 'test@test.com' against START.
+DEBUG:routing:Message to set(['test@test.com']) was handled by lamson.handlers.queue.START
+INFO:root:Logging mode enabled, will not send email to anyone, just log.
+INFO:root:SMTPReceiver started on 127.0.0.1:8825.
+INFO:root:Logging mode enabled, will not send email to anyone, just log.
+INFO:root:SMTPReceiver started on 127.0.0.1:8825.
+DEBUG:root:Message received from Peer: ('127.0.0.1', 50151), From: 'me@mydomain.com', to To ['test@test.com'].
+DEBUG:routing:Matched 'test@test.com' against START.
+DEBUG:root:MESSAGE to test@test.com:
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+From: me@mydomain.com
+Subject: My test
+To: test@test.com
+Content-Transfer-Encoding: 7bit
+
+Hi there
+DEBUG:routing:Message to set(['test@test.com']) was handled by lamson.handlers.log.START
+DEBUG:routing:Matched 'test@test.com' against START.
+DEBUG:routing:Message to set(['test@test.com']) was handled by lamson.handlers.queue.START
+DEBUG:root:Message received from Peer: ('127.0.0.1', 50165), From: 'me@mydomain.com', to To ['test@test.com'].
+DEBUG:routing:Matched 'test@test.com' against START.
+DEBUG:root:MESSAGE to test@test.com:
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+From: me@mydomain.com
+Subject: My test
+To: test@test.com
+Content-Transfer-Encoding: 7bit
+
+Hi there
+DEBUG:routing:Message to set(['test@test.com']) was handled by lamson.handlers.log.START
+DEBUG:routing:Matched 'test@test.com' against START.
+DEBUG:routing:Message to set(['test@test.com']) was handled by lamson.handlers.queue.START
+DEBUG:root:Message received from Peer: ('127.0.0.1', 50256), From: 'me@mydomain.com', to To ['test@test.com'].
+DEBUG:routing:Matched 'test@test.com' against START.
+DEBUG:root:MESSAGE to test@test.com:
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+From: me@mydomain.com
+Subject: My test
+To: test@test.com
+Content-Transfer-Encoding: 7bit
+
+Hi there
+DEBUG:routing:Message to set(['test@test.com']) was handled by lamson.handlers.log.START
+DEBUG:routing:Matched 'test@test.com' against START.
+DEBUG:routing:Message to set(['test@test.com']) was handled by lamson.handlers.queue.START
+INFO:root:Logging mode enabled, will not send email to anyone, just log.
+INFO:root:SMTPReceiver started on 127.0.0.1:8825.

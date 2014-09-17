@@ -2,6 +2,7 @@ from config import settings
 from lamson.routing import Router
 from lamson.server import Relay, SMTPReceiver
 from lamson import view, queue
+import mongoengine
 import logging
 import logging.config
 import jinja2
@@ -15,6 +16,9 @@ settings.relay = Relay(host=settings.relay_config['host'],
 # where to listen for incoming messages
 settings.receiver = SMTPReceiver(settings.receiver_config['host'],
                                  settings.receiver_config['port'])
+
+# database
+mongoengine.connect(settings.database_config['table'])
 
 Router.defaults(**settings.router_defaults)
 Router.load(settings.handlers)

@@ -8,7 +8,13 @@ relay_config = {'host': 'localhost', 'port': 8825}
 
 receiver_config = {'host': 'localhost', 'port': 8823}
 
-handlers = ['app.handlers.sample']
+database_config = {
+        'table'     : 'quadrum',
+        'username'  : 'YOURUSERNAME',
+        'password'  : 'YOURPASSWORD'
+}
+
+handlers = ['app.handlers.main']
 
 router_defaults = {'host': 'test\\.com'}
 
