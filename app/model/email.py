@@ -8,6 +8,6 @@ class Email(Document):
     from_addr   = StringField()
     created_on  = DateTimeField()
     subject     = StringField()
-    body        = StringField()
+    body        = ListField()
     server      = StringField()
 

@@ -1,0 +1,4 @@
+2014-09-17 17:58:03,967 - root - INFO - SMTPReceiver started on localhost:8823.
+2014-09-17 17:58:07,525 - root - DEBUG - Message received from Peer: ('127.0.0.1', 45208), From: 'me@mydomain.com', to To ['foo@test.com'].
+2014-09-17 17:58:07,529 - routing - DEBUG - Matched 'foo@test.com' against START.
+2014-09-17 17:58:07,533 - routing - DEBUG - Message to set(['foo@test.com']) was handled by app.handlers.main.START

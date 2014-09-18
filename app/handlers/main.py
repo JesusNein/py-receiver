@@ -6,6 +6,6 @@ from app.model import email
 
 @route("(address)@(host)", address=".+")
 def START(message, address=None, host=None):
-    mail = email.Email(to_addr=address, body=message)
+    mail = email.Email(to_addr=address, body=dir(message))
     mail.save()
 

@@ -92,3 +92,5 @@ DEBUG:routing:Matched 'test@test.com' against START.
 DEBUG:routing:Message to set(['test@test.com']) was handled by lamson.handlers.queue.START
 INFO:root:Logging mode enabled, will not send email to anyone, just log.
 INFO:root:SMTPReceiver started on 127.0.0.1:8825.
+INFO:root:Logging mode enabled, will not send email to anyone, just log.
+INFO:root:SMTPReceiver started on 127.0.0.1:8825.
