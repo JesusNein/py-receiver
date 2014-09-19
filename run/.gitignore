@@ -1,0 +1,4 @@
+# PID files
+*.pid
+# Log files
+*.log
