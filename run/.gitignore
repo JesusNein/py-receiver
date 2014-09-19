@@ -1,2 +1,4 @@
 # PID files
-*.pid
+*
+!.gitignore
+
